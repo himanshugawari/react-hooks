@@ -8,14 +8,16 @@ import './App.css';
 // import HookCounterOne from './components/HookCounterOne';
 // import ClassMouse from './components/ClassMouse';
 // import MouseContainer from './components/MouseContainer';
-import IntervalClassCounter from './components/IntervalClassCounter';
-import IntervalHookCounter from './components/IntervalHookCounter';
+// import IntervalClassCounter from './components/IntervalClassCounter';
+// import IntervalHookCounter from './components/IntervalHookCounter';
+import DataFetching from './components/DataFetching';
 
 function App() {
   return (
     <div className='App'>
-      <IntervalHookCounter />
-      <IntervalClassCounter />
+      <DataFetching />
+      {/* <IntervalHookCounter /> */}
+      {/* <IntervalClassCounter /> */}
       {/* <MouseContainer /> */}
       {/* <ClassMouse /> */}
       {/* <HookCounterOne /> */}
